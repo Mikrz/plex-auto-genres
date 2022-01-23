@@ -153,7 +153,7 @@ def setAnimeRatings(plex):
             mediaIdentifier = f'{media.title} ({media.year})'
             if mediaIdentifier not in ratedAnimeMedia:
                 anime = getAnime(media.title)
-                score = str(anime['score']) if anime['score'] else None
+                score = anime['score'] if anime['score'] else None
                 if score:
                     print(f'{mediaIdentifier} -- {score}')
                     media.rate(score)
