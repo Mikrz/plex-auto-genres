@@ -1,5 +1,5 @@
 # Plex Auto Genres
-![](https://img.shields.io/docker/cloud/build/shaneisrael/plex-auto-genres)
+![](https://img.shields.io/docker/cloud/build/Mikrz/plex-auto-genres)
 
 Plex Auto Genres is a simple script that will add genre collection tags to your media making it much easier to search for genre specific content
 
@@ -53,7 +53,7 @@ If your anime shows and standard tv shows are in the same library, you can still
     |PLEX_TOKEN|Token|Your Plex Token|
     |PLEX_COLLECTION_PREFIX||(Optional) Prefix for the created Plex collections. For example, with a value of "\*", a collection named "Adventure", the name would instead be "*Adventure".<br><br>Default value : ""|
     |TMDB_API_KEY||Your TMDB api key (not required for anime library tagging)|
-6. Optional, If you want to update the poster art of your collections. See [`posters/README.md`](https://github.com/ShaneIsrael/plex-auto-genres/tree/master/posters)
+6. Optional, If you want to update the poster art of your collections. See [`posters/README.md`](https://github.com/Mikrz/plex-auto-genres/tree/master/posters)
 
 You are now ready to run the script
 ```
